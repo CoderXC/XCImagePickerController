@@ -15,6 +15,26 @@
 		7D8556011D1798A70017F1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8555FF1D1798A70017F1A4 /* LaunchScreen.storyboard */; };
 		7D85560C1D1798A70017F1A4 /* XCImagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85560B1D1798A70017F1A4 /* XCImagePickerControllerTests.m */; };
 		7D8556171D1798A70017F1A4 /* XCImagePickerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556161D1798A70017F1A4 /* XCImagePickerControllerUITests.m */; };
+		7D85563A1D17994B0017F1A4 /* XCAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556271D17994B0017F1A4 /* XCAlbumViewController.m */; };
+		7D85563B1D17994B0017F1A4 /* XCPhohoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556291D17994B0017F1A4 /* XCPhohoViewController.m */; };
+		7D85563D1D17994B0017F1A4 /* XCAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85562E1D17994B0017F1A4 /* XCAlbumModel.m */; };
+		7D85563E1D17994B0017F1A4 /* XCAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556301D17994B0017F1A4 /* XCAssetModel.m */; };
+		7D85563F1D17994B0017F1A4 /* XCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556321D17994B0017F1A4 /* XCBaseModel.m */; };
+		7D8556401D17994B0017F1A4 /* XCPhotoLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556341D17994B0017F1A4 /* XCPhotoLibraryManager.m */; };
+		7D8556411D17994B0017F1A4 /* XCAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556371D17994B0017F1A4 /* XCAlbumCell.m */; };
+		7D8556421D17994B0017F1A4 /* XCPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556391D17994B0017F1A4 /* XCPhotoCell.m */; };
+		7D8556451D179A0C0017F1A4 /* XCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556441D179A0C0017F1A4 /* XCImagePickerController.m */; };
+		7D8556611D17B2300017F1A4 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556491D17B2300017F1A4 /* MASCompositeConstraint.m */; };
+		7D8556621D17B2300017F1A4 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85564C1D17B2300017F1A4 /* MASConstraint.m */; };
+		7D8556631D17B2300017F1A4 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85564E1D17B2300017F1A4 /* MASConstraintMaker.m */; };
+		7D8556641D17B2300017F1A4 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556501D17B2300017F1A4 /* MASLayoutConstraint.m */; };
+		7D8556651D17B2300017F1A4 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556541D17B2300017F1A4 /* MASViewAttribute.m */; };
+		7D8556661D17B2300017F1A4 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556561D17B2300017F1A4 /* MASViewConstraint.m */; };
+		7D8556671D17B2300017F1A4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556581D17B2300017F1A4 /* NSArray+MASAdditions.m */; };
+		7D8556681D17B2300017F1A4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85565B1D17B2300017F1A4 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		7D8556691D17B2300017F1A4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85565D1D17B2300017F1A4 /* View+MASAdditions.m */; };
+		7D85566A1D17B2300017F1A4 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8556601D17B2300017F1A4 /* ViewController+MASAdditions.m */; };
+		7D85566D1D17B37C0017F1A4 /* XCPhotoShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85566C1D17B37C0017F1A4 /* XCPhotoShowCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,52 @@
 		7D8556121D1798A70017F1A4 /* XCImagePickerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCImagePickerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8556161D1798A70017F1A4 /* XCImagePickerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCImagePickerControllerUITests.m; sourceTree = "<group>"; };
 		7D8556181D1798A70017F1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8556261D17994B0017F1A4 /* XCAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAlbumViewController.h; sourceTree = "<group>"; };
+		7D8556271D17994B0017F1A4 /* XCAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAlbumViewController.m; sourceTree = "<group>"; };
+		7D8556281D17994B0017F1A4 /* XCPhohoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPhohoViewController.h; sourceTree = "<group>"; };
+		7D8556291D17994B0017F1A4 /* XCPhohoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPhohoViewController.m; sourceTree = "<group>"; };
+		7D85562D1D17994B0017F1A4 /* XCAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAlbumModel.h; sourceTree = "<group>"; };
+		7D85562E1D17994B0017F1A4 /* XCAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAlbumModel.m; sourceTree = "<group>"; };
+		7D85562F1D17994B0017F1A4 /* XCAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAssetModel.h; sourceTree = "<group>"; };
+		7D8556301D17994B0017F1A4 /* XCAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAssetModel.m; sourceTree = "<group>"; };
+		7D8556311D17994B0017F1A4 /* XCBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCBaseModel.h; sourceTree = "<group>"; };
+		7D8556321D17994B0017F1A4 /* XCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCBaseModel.m; sourceTree = "<group>"; };
+		7D8556331D17994B0017F1A4 /* XCPhotoLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPhotoLibraryManager.h; sourceTree = "<group>"; };
+		7D8556341D17994B0017F1A4 /* XCPhotoLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPhotoLibraryManager.m; sourceTree = "<group>"; };
+		7D8556361D17994B0017F1A4 /* XCAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAlbumCell.h; sourceTree = "<group>"; };
+		7D8556371D17994B0017F1A4 /* XCAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAlbumCell.m; sourceTree = "<group>"; };
+		7D8556381D17994B0017F1A4 /* XCPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPhotoCell.h; sourceTree = "<group>"; };
+		7D8556391D17994B0017F1A4 /* XCPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPhotoCell.m; sourceTree = "<group>"; };
+		7D8556431D179A0C0017F1A4 /* XCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCImagePickerController.h; sourceTree = "<group>"; };
+		7D8556441D179A0C0017F1A4 /* XCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCImagePickerController.m; sourceTree = "<group>"; };
+		7D8556461D179A7A0017F1A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7D8556481D17B2300017F1A4 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7D8556491D17B2300017F1A4 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		7D85564A1D17B2300017F1A4 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		7D85564B1D17B2300017F1A4 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		7D85564C1D17B2300017F1A4 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		7D85564D1D17B2300017F1A4 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		7D85564E1D17B2300017F1A4 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		7D85564F1D17B2300017F1A4 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7D8556501D17B2300017F1A4 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		7D8556511D17B2300017F1A4 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		7D8556521D17B2300017F1A4 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		7D8556531D17B2300017F1A4 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		7D8556541D17B2300017F1A4 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		7D8556551D17B2300017F1A4 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		7D8556561D17B2300017F1A4 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		7D8556571D17B2300017F1A4 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		7D8556581D17B2300017F1A4 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		7D8556591D17B2300017F1A4 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7D85565A1D17B2300017F1A4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		7D85565B1D17B2300017F1A4 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7D85565C1D17B2300017F1A4 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		7D85565D1D17B2300017F1A4 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		7D85565E1D17B2300017F1A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7D85565F1D17B2300017F1A4 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		7D8556601D17B2300017F1A4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		7D85566B1D17B37C0017F1A4 /* XCPhotoShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPhotoShowCell.h; sourceTree = "<group>"; };
+		7D85566C1D17B37C0017F1A4 /* XCPhotoShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPhotoShowCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +167,14 @@
 		7D8555F01D1798A70017F1A4 /* XCImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
+				7D8556471D17B2300017F1A4 /* Masonry */,
+				7D8556241D17994B0017F1A4 /* XCImagePickerController */,
 				7D8555F41D1798A70017F1A4 /* AppDelegate.h */,
 				7D8555F51D1798A70017F1A4 /* AppDelegate.m */,
 				7D8555F71D1798A70017F1A4 /* ViewController.h */,
 				7D8555F81D1798A70017F1A4 /* ViewController.m */,
+				7D85566B1D17B37C0017F1A4 /* XCPhotoShowCell.h */,
+				7D85566C1D17B37C0017F1A4 /* XCPhotoShowCell.m */,
 				7D8555FA1D1798A70017F1A4 /* Main.storyboard */,
 				7D8555FD1D1798A70017F1A4 /* Assets.xcassets */,
 				7D8555FF1D1798A70017F1A4 /* LaunchScreen.storyboard */,
@@ -118,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				7D8555F21D1798A70017F1A4 /* main.m */,
+				7D8556461D179A7A0017F1A4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +209,87 @@
 				7D8556181D1798A70017F1A4 /* Info.plist */,
 			);
 			path = XCImagePickerControllerUITests;
+			sourceTree = "<group>";
+		};
+		7D8556241D17994B0017F1A4 /* XCImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				7D8556251D17994B0017F1A4 /* Contorller */,
+				7D85562C1D17994B0017F1A4 /* Model */,
+				7D8556351D17994B0017F1A4 /* View */,
+			);
+			path = XCImagePickerController;
+			sourceTree = "<group>";
+		};
+		7D8556251D17994B0017F1A4 /* Contorller */ = {
+			isa = PBXGroup;
+			children = (
+				7D8556431D179A0C0017F1A4 /* XCImagePickerController.h */,
+				7D8556441D179A0C0017F1A4 /* XCImagePickerController.m */,
+				7D8556261D17994B0017F1A4 /* XCAlbumViewController.h */,
+				7D8556271D17994B0017F1A4 /* XCAlbumViewController.m */,
+				7D8556281D17994B0017F1A4 /* XCPhohoViewController.h */,
+				7D8556291D17994B0017F1A4 /* XCPhohoViewController.m */,
+			);
+			path = Contorller;
+			sourceTree = "<group>";
+		};
+		7D85562C1D17994B0017F1A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D8556311D17994B0017F1A4 /* XCBaseModel.h */,
+				7D8556321D17994B0017F1A4 /* XCBaseModel.m */,
+				7D85562D1D17994B0017F1A4 /* XCAlbumModel.h */,
+				7D85562E1D17994B0017F1A4 /* XCAlbumModel.m */,
+				7D85562F1D17994B0017F1A4 /* XCAssetModel.h */,
+				7D8556301D17994B0017F1A4 /* XCAssetModel.m */,
+				7D8556331D17994B0017F1A4 /* XCPhotoLibraryManager.h */,
+				7D8556341D17994B0017F1A4 /* XCPhotoLibraryManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D8556351D17994B0017F1A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D8556361D17994B0017F1A4 /* XCAlbumCell.h */,
+				7D8556371D17994B0017F1A4 /* XCAlbumCell.m */,
+				7D8556381D17994B0017F1A4 /* XCPhotoCell.h */,
+				7D8556391D17994B0017F1A4 /* XCPhotoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D8556471D17B2300017F1A4 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				7D8556481D17B2300017F1A4 /* MASCompositeConstraint.h */,
+				7D8556491D17B2300017F1A4 /* MASCompositeConstraint.m */,
+				7D85564A1D17B2300017F1A4 /* MASConstraint+Private.h */,
+				7D85564B1D17B2300017F1A4 /* MASConstraint.h */,
+				7D85564C1D17B2300017F1A4 /* MASConstraint.m */,
+				7D85564D1D17B2300017F1A4 /* MASConstraintMaker.h */,
+				7D85564E1D17B2300017F1A4 /* MASConstraintMaker.m */,
+				7D85564F1D17B2300017F1A4 /* MASLayoutConstraint.h */,
+				7D8556501D17B2300017F1A4 /* MASLayoutConstraint.m */,
+				7D8556511D17B2300017F1A4 /* Masonry.h */,
+				7D8556521D17B2300017F1A4 /* MASUtilities.h */,
+				7D8556531D17B2300017F1A4 /* MASViewAttribute.h */,
+				7D8556541D17B2300017F1A4 /* MASViewAttribute.m */,
+				7D8556551D17B2300017F1A4 /* MASViewConstraint.h */,
+				7D8556561D17B2300017F1A4 /* MASViewConstraint.m */,
+				7D8556571D17B2300017F1A4 /* NSArray+MASAdditions.h */,
+				7D8556581D17B2300017F1A4 /* NSArray+MASAdditions.m */,
+				7D8556591D17B2300017F1A4 /* NSArray+MASShorthandAdditions.h */,
+				7D85565A1D17B2300017F1A4 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				7D85565B1D17B2300017F1A4 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				7D85565C1D17B2300017F1A4 /* View+MASAdditions.h */,
+				7D85565D1D17B2300017F1A4 /* View+MASAdditions.m */,
+				7D85565E1D17B2300017F1A4 /* View+MASShorthandAdditions.h */,
+				7D85565F1D17B2300017F1A4 /* ViewController+MASAdditions.h */,
+				7D8556601D17B2300017F1A4 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +354,13 @@
 		7D8555E61D1798A70017F1A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XC;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = IWANT;
+				ORGANIZATIONNAME = "小蔡";
 				TargetAttributes = {
 					7D8555ED1D1798A70017F1A4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = G46AB7H388;
 					};
 					7D8556061D1798A70017F1A4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -271,8 +425,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8555F91D1798A70017F1A4 /* ViewController.m in Sources */,
+				7D8556671D17B2300017F1A4 /* NSArray+MASAdditions.m in Sources */,
+				7D85563A1D17994B0017F1A4 /* XCAlbumViewController.m in Sources */,
+				7D8556681D17B2300017F1A4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7D85563D1D17994B0017F1A4 /* XCAlbumModel.m in Sources */,
+				7D85563F1D17994B0017F1A4 /* XCBaseModel.m in Sources */,
+				7D8556651D17B2300017F1A4 /* MASViewAttribute.m in Sources */,
+				7D8556641D17B2300017F1A4 /* MASLayoutConstraint.m in Sources */,
+				7D8556611D17B2300017F1A4 /* MASCompositeConstraint.m in Sources */,
 				7D8555F61D1798A70017F1A4 /* AppDelegate.m in Sources */,
+				7D8556421D17994B0017F1A4 /* XCPhotoCell.m in Sources */,
+				7D8556661D17B2300017F1A4 /* MASViewConstraint.m in Sources */,
+				7D8556411D17994B0017F1A4 /* XCAlbumCell.m in Sources */,
+				7D8556401D17994B0017F1A4 /* XCPhotoLibraryManager.m in Sources */,
 				7D8555F31D1798A70017F1A4 /* main.m in Sources */,
+				7D85566D1D17B37C0017F1A4 /* XCPhotoShowCell.m in Sources */,
+				7D85563E1D17994B0017F1A4 /* XCAssetModel.m in Sources */,
+				7D85566A1D17B2300017F1A4 /* ViewController+MASAdditions.m in Sources */,
+				7D8556631D17B2300017F1A4 /* MASConstraintMaker.m in Sources */,
+				7D85563B1D17994B0017F1A4 /* XCPhohoViewController.m in Sources */,
+				7D8556621D17B2300017F1A4 /* MASConstraint.m in Sources */,
+				7D8556451D179A0C0017F1A4 /* XCImagePickerController.m in Sources */,
+				7D8556691D17B2300017F1A4 /* View+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +587,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/iwant/Desktop/XCImagePickerController/XCImagePickerController/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = XCImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ssdf.zc.XCImagePickerController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdf.zc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "941d138c-a71c-4de9-8fe2-0050a44207d0";
 			};
 			name = Debug;
 		};
@@ -424,10 +603,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/iwant/Desktop/XCImagePickerController/XCImagePickerController/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = XCImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ssdf.zc.XCImagePickerController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdf.zc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "941d138c-a71c-4de9-8fe2-0050a44207d0";
 			};
 			name = Release;
 		};
