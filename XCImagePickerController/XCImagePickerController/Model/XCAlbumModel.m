@@ -43,13 +43,4 @@
     }
 }
 
--(UIImage *)albumPhoto
-{
-    if (!_albumPhoto) {
-        
-    }
-    return _albumPhoto;
-}
-
-
 @end

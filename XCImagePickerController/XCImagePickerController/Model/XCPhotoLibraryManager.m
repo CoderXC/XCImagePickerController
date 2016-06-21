@@ -9,6 +9,8 @@
 #import "XCPhotoLibraryManager.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <Photos/Photos.h>
+#import "XCAlbumModel.h"
+#import "XCAssetModel.h"
 
 @interface XCPhotoLibraryManager ()
 

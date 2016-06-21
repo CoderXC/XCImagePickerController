@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AllDefiine.h"
+#import "XCPhotoLibraryManager.h"
 
 @interface XCBaseModel : NSObject
 

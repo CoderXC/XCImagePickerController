@@ -32,6 +32,7 @@
 #import "XCPhohoViewController.h"
 #import "XCImagePickerController.h"
 #import "XCPhotoCell.h"
+#import "XCAlbumModel.h"
 
 #define XCCollectionView_FooterHeight 50
 

@@ -9,6 +9,7 @@
 #import "XCImagePickerController.h"
 #import "XCAlbumViewController.h"
 #import "XCPhohoViewController.h"
+#import "XCPhotoLibraryManager.h"
 
 @interface XCImagePickerController ()
 

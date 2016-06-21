@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XCAlbumModel.h"
-#import "XCAssetModel.h"
+
+@class XCAlbumModel;
+@class XCAssetModel;
 
 @interface XCPhotoLibraryManager : NSObject
 
