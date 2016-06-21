@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "AllDefiine.h"
+
 @class XCAssetModel;
 @class XCImagePickerController;
 

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AllDefiine.h"
 
 @interface XCBaseModel : NSObject
 

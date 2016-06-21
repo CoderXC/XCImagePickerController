@@ -117,6 +117,7 @@
 		7D8556601D17B2300017F1A4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		7D85566B1D17B37C0017F1A4 /* XCPhotoShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPhotoShowCell.h; sourceTree = "<group>"; };
 		7D85566C1D17B37C0017F1A4 /* XCPhotoShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPhotoShowCell.m; sourceTree = "<group>"; };
+		7DD4607B1D1925F900B906A7 /* AllDefiine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllDefiine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +215,7 @@
 		7D8556241D17994B0017F1A4 /* XCImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
+				7DD4607B1D1925F900B906A7 /* AllDefiine.h */,
 				7D8556251D17994B0017F1A4 /* Contorller */,
 				7D85562C1D17994B0017F1A4 /* Model */,
 				7D8556351D17994B0017F1A4 /* View */,
@@ -588,7 +590,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = /Users/iwant/Desktop/XCImagePickerController/XCImagePickerController/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XCImagePickerController/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = XCImagePickerController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -604,7 +606,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = /Users/iwant/Desktop/XCImagePickerController/XCImagePickerController/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XCImagePickerController/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = XCImagePickerController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -680,6 +682,7 @@
 				7D85561D1D1798A70017F1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D85561E1D1798A70017F1A4 /* Build configuration list for PBXNativeTarget "XCImagePickerControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -688,6 +691,7 @@
 				7D8556201D1798A70017F1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D8556211D1798A70017F1A4 /* Build configuration list for PBXNativeTarget "XCImagePickerControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -696,6 +700,7 @@
 				7D8556231D1798A70017F1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
