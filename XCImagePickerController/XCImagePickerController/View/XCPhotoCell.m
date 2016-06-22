@@ -42,7 +42,7 @@
     [self addSubview:self.photoView];
     
     self.selectMaskView = [[UIView alloc] initWithFrame:self.bounds];
-    self.selectMaskView.backgroundColor = [UIColor colorWithWhite:1 alpha:.3];
+    self.selectMaskView.backgroundColor = [UIColor colorWithWhite:1 alpha:.4];
     [self addSubview:self.selectMaskView];
 
     self.selectView = [[UIImageView alloc] init];
